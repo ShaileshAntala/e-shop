@@ -22,7 +22,7 @@ export default function Navbar() {
 
   const handleLogOut = () => {
     dispatch(logOut());
-    window.location.reload();
+    navigate("/login");
   };
 
   const handleCartClick = () => {
