@@ -1,18 +1,20 @@
-.App {
+.app {
+  position: relative;
   background: #fff;
   border-radius: 4px;
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
   max-width: 615px;
-  padding-bottom: 66px;
-  padding-top: 46px;
+  padding-top: 3rem;
   text-align: center;
   width: 90%;
   margin: auto;
+  top: 10rem;
+  height: 600px;
 }
-.App > .logo {
+.app > .logo {
   max-width: 90%;
 }
-.App > .form {
+.app > .form {
   margin-bottom: 98px;
   margin-top: 41px;
 }
@@ -25,7 +27,7 @@
 }
 .input_group > label,
 .input_group > input {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   max-width: 420px;
   text-align: left;
   width: 80%;
@@ -61,7 +63,7 @@ button {
   border: none;
   color: #fff;
   cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -82,4 +84,10 @@ button {
 }
 button.secondary:hover {
   background: #a8c787;
+}
+
+@media only screen and (max-width: 600px){
+  .app{
+    top: 2rem;
+  }
 }

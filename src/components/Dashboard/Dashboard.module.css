@@ -1,7 +1,15 @@
 .container {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   padding: 3rem;
   justify-content: center;
   align-items: center;
+  top: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    top: 0;
+  }
 }

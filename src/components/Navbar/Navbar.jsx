@@ -30,7 +30,7 @@ export default function Navbar() {
   };
 
   return (
-    <Box component="nav">
+    <Box component="nav" className={styles.appbar}>
       <AppBar position="static" className={styles.appbar}>
         <Toolbar>
           <Typography

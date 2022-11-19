@@ -25,7 +25,7 @@ const Login = () => {
   };
 
   return (
-    <div className={styles.App}>
+    <div className={styles.app}>
       <img src="./logo.png" className="logo" alt="Business view - Reports" />
       <form className={styles.form} onSubmit={handleSubmit}>
         <div className={styles.input_group}>

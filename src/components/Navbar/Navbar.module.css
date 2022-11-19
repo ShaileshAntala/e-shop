@@ -1,3 +1,8 @@
+.appbar {
+  position: fixed !important;
+  z-index: 999;
+}
+
 .brand_name {
   font-size: 30px !important;
   font-weight: 700 !important;
