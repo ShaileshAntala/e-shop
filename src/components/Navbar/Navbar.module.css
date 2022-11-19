@@ -1,0 +1,17 @@
+.brand_name {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+}
+
+.cart:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.logout_button {
+  background-color: rgba(0, 0, 0, 0) !important;
+  font-size: 20px !important;
+}
+
+.cart {
+  width: 2rem;
+}

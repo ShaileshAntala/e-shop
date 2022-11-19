@@ -1,0 +1,16 @@
+.card {
+  margin: 1rem;
+  width: 20rem;
+}
+
+.card_actions {
+  justify-content: center !important;
+}
+
+.card_content {
+  padding-bottom: 0 !important;
+}
+
+.card_image {
+  object-fit: contain !important;
+}
