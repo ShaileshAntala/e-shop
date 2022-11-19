@@ -14,7 +14,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (userEmail === "me@example.com" && userPassword === "123456") {
+    if (userEmail === "admin@gmail.com" && userPassword === "Abcd@1234") {
       dispatch(logIn());
       navigate("/dashboard");
       setUserEmail("");
